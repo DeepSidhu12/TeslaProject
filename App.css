@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.maze {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.maze-row {
+  display: flex;
+}
+
+.maze-cell {
+  width: 10px; /* Adjust size for 50x50 grid */
+  height: 10px; /* Adjust size for 50x50 grid */
+  border: 1px solid #ccc;
+}
+
+.start {
+  background-color: green;
+}
+
+.end {
+  background-color: red;
+}
+
+.car {
+  font-size: 10px; /* Adjust size for 50x50 grid */
+}

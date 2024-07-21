@@ -1,0 +1,26 @@
+.maze-cell {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.wall {
+  background-color: black;
+}
+
+.path {
+  background-color: yellow;
+}
+
+.start {
+  background-color: green;
+}
+
+.end {
+  background-color: red;
+}
+
+.car {
+  background-color: blue;
+}
